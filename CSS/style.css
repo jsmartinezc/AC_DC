@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  float: left;
+  padding: 10px;
+}
+.menu {
+  float: right;
+  margin: 24px;
+}
+.menu ul {
+  list-style: none;
+  margin-right: px;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 150px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.banner {
+  background-image: url(../img/ACDC_Back_in_Black_cover.svg.png);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #675f5f8e;
+}
+.flex {
+  display: flex;
+  width: 900px;
+  height: 430px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.flex img {
+  width: 0;
+  flex-grow: 2;
+  object-fit: cover;
+  padding: 2px;
+}
+.header {
+  background-color: rgb(209, 205, 199);
+  height: 70px;
+}
+body {
+  background-color: rgb(229, 125, 96);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 150px 50px;
+}
+
+.tablaCategorias {
+  width: auto;
+  margin: auto;
+}
+
+.cat {
+  padding: 50px;
+}
+.boton_categorias {
+  width: 80px;
+  height: 80px;
+  background-color: #f38902;
+  border-radius: 50px;
+  font-size: 11px;
+  margin: 5px;
+  padding: 10px;
+  line-height: 80px;
+  text-align:center;
+  float: left;
+}
+
+.boton_categorias:hover {
+  opacity: 0.3;
+}
+
+.boton_categorias a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px 5px 5px;
+}
+
+.datoCurioso {
+  background-color: black;
+  color: white;
+  padding: 20px 100px 70px 100px;
+  text-align: justify;
+}
+
+.datoCurioso h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.premios {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.premios table {
+  padding: 30px 100px 30px 100px;
+}
+
+.premios h2 {
+  padding: 30px 0px;
+}
+
+.premios h3 {
+  background-color: rgb(255, 145, 19);
+  border: 2px solid blue;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  margin: 40px;
+}
+
+.premios td {
+  text-align: left;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
